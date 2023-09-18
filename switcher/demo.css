@@ -1,0 +1,152 @@
+#switcher {
+    color: #222;
+    border-right: 1px solid #e5e5e5;
+    padding: 30px 10px;
+    background: #fff;
+    font-size: 10px;
+    position: fixed;
+    z-index: 500;
+    top: 0px;
+    left: 0;
+    z-index: 99999;
+    font-size: 13px;
+    width: 300px;
+    box-sizing: border-box;
+    margin-left: -300px;
+    height: 100%;
+}
+
+#switcher .clearfix {
+    margin-bottom: 10px;
+}
+
+#switcher span {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.spacing-10 {
+    margin-top: 10px;
+    clear: both;
+}
+
+.custom-show:after,
+.custom-close:after {
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: #fff;
+    cursor: pointer;
+    content: "\f013";
+    font-family: "FontAwesome";
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 20px;
+    border: 1px solid #e5e5e5;
+    border-left: 0;
+}
+
+#switcher span.custom-close,
+#switcher span.custom-show {
+    position: absolute;
+    right: -30px;
+    margin-top: 120px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+#tm-color {
+    padding: 0;
+    margin: 0;
+}
+
+#tm-color li {
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    background-color: #e5e5e5;
+    margin-bottom: 9px;
+    margin-right: 9px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#tm-color li span {
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+
+#tm-color li.color1 span {
+    background: #1bbc9b;
+}
+
+#tm-color li.color2 span {
+    background: #FE4365;
+}
+
+#tm-color li.color3 span {
+    background: #27ae61;
+}
+
+#tm-color li.color4 span {
+    background: #2dcc70;
+}
+
+#tm-color li.color5 span {
+    background: #297fb8;
+}
+
+#tm-color li.color6 span {
+    background: #3598db;
+}
+
+#tm-color li.color7 span {
+    background: #C762CB;
+}
+
+#tm-color li.color8 span {
+    background: #f39c11;
+}
+
+#tm-color li.color9 span {
+    background: #e67f22;
+}
+
+#tm-color li.color10 span {
+    background: #d25400;
+}
+
+#tm-color li.color11 span {
+    background: #e84c3d;
+}
+
+#tm-color li.color12 span {
+    background: #fab702;
+}
+
+.reset {
+    background: #ff7400;
+    line-height: 50px;
+    padding: 0 50px;
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+
+.reset {
+    border-radius: 0;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+}
+
+.reset:hover {
+    color: #fff;
+    background: #ff7400;
+}
